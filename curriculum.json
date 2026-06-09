@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "topic": "SQL SELECT Statement",
+    "concept": "SELECT, FROM, WHERE",
+    "business_question": "Which customers are from Chicago?",
+    "keyword": "SQL SELECT statement for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Don't know how to pull specific data from a database",
+    "status": "done"
+  },
+  {
+    "id": 2,
+    "topic": "SQL WHERE Clause",
+    "concept": "WHERE with comparison operators",
+    "business_question": "Which orders were over $50?",
+    "keyword": "SQL WHERE clause for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Can't figure out how to filter rows by a condition",
+    "status": "done"
+  },
+  {
+    "id": 3,
+    "topic": "SQL ORDER BY",
+    "concept": "ORDER BY ASC and DESC",
+    "business_question": "What are our most expensive products?",
+    "keyword": "SQL ORDER BY for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Results come back in random order and I don't know how to sort them",
+    "status": "done"
+  },
+  {
+    "id": 4,
+    "topic": "SQL COUNT Function",
+    "concept": "COUNT()",
+    "business_question": "How many orders did we receive this month?",
+    "keyword": "SQL COUNT function for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Don't know how to count rows in a table",
+    "status": "done"
+  },
+  {
+    "id": 5,
+    "topic": "SQL SUM Function",
+    "concept": "SUM()",
+    "business_question": "What was our total revenue last month?",
+    "keyword": "SQL SUM function for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Don't know how to add up a column of numbers",
+    "status": "done"
+  },
+  {
+    "id": 6,
+    "topic": "SQL AVG Function",
+    "concept": "AVG()",
+    "business_question": "What is the average order value per customer?",
+    "keyword": "SQL AVG function for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Don't know how to calculate averages in SQL",
+    "status": "done"
+  },
+  {
+    "id": 7,
+    "topic": "SQL GROUP BY",
+    "concept": "GROUP BY with aggregate functions",
+    "business_question": "What is total revenue by product category?",
+    "keyword": "SQL GROUP BY for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Don't know how to summarize data by groups",
+    "status": "done"
+  },
+  {
+    "id": 8,
+    "topic": "SQL HAVING Clause",
+    "concept": "HAVING to filter grouped results",
+    "business_question": "Which product categories generated over $500 in revenue?",
+    "keyword": "SQL HAVING clause explained",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "WHERE doesn't work after GROUP BY and I don't know why",
+    "status": "done"
+  },
+  {
+    "id": 9,
+    "topic": "SQL INNER JOIN",
+    "concept": "INNER JOIN on matching keys",
+    "business_question": "Which customers placed orders and what did they buy?",
+    "keyword": "SQL JOIN explained for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Data is split across two tables and I don't know how to combine them",
+    "status": "pending"
+  },
+  {
+    "id": 10,
+    "topic": "SQL LEFT JOIN",
+    "concept": "LEFT JOIN to include unmatched rows",
+    "business_question": "Which customers have never placed an order?",
+    "keyword": "SQL LEFT JOIN for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "INNER JOIN drops rows I need to keep",
+    "status": "pending"
+  },
+  {
+    "id": 11,
+    "topic": "SQL Subqueries",
+    "concept": "Subquery in WHERE clause",
+    "business_question": "Which customers spent more than the average order value?",
+    "keyword": "SQL subquery for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "Don't know how to use the result of one query inside another",
+    "status": "pending"
+  },
+  {
+    "id": 12,
+    "topic": "SQL Window Functions",
+    "concept": "RANK() OVER (PARTITION BY)",
+    "business_question": "Who is the top customer by spend in each city?",
+    "keyword": "SQL window functions for beginners",
+    "audience": "beginner",
+    "platform": "YouTube",
+    "pain_point": "GROUP BY collapses my data but I need to keep all rows",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,121 @@
+emp_id,full_name,first_name,last_name,email,department,job_title,office_location,hire_date,tenure_years,employment_type,is_manager,manager_emp_id
+EMP1000,Kimberly Sanchez,Kimberly,Sanchez,kimberly.sanchez@meridianfs.com,Learning & Development,L&D Specialist,Boston,2020-07-03,4.5,Full-Time,True,
+EMP1001,Angela Taylor,Angela,Taylor,angela.taylor@meridianfs.com,Learning & Development,Instructional Designer,New York,2022-09-25,2.3,Full-Time,False,EMP1003
+EMP1002,Sandra Gomez,Sandra,Gomez,sandra.gomez@meridianfs.com,Learning & Development,L&D Specialist,Boston,2018-04-19,6.7,Full-Time,False,EMP1000
+EMP1003,Angela Nguyen,Angela,Nguyen,angela.nguyen@meridianfs.com,Learning & Development,L&D Manager,San Francisco,2020-06-21,4.5,Full-Time,True,
+EMP1004,James Henderson,James,Henderson,james.henderson@meridianfs.com,Learning & Development,L&D Manager,Atlanta,2019-10-16,5.2,Full-Time,False,EMP1003
+EMP1005,Betty Henderson,Betty,Henderson,betty.henderson@meridianfs.com,Learning & Development,Instructional Designer,New York,2021-10-10,3.2,Full-Time,False,EMP1003
+EMP1006,Michelle Phillips,Michelle,Phillips,michelle.phillips@meridianfs.com,Learning & Development,Instructional Designer,Boston,2020-12-19,4.0,Full-Time,False,EMP1003
+EMP1007,Susan Edwards,Susan,Edwards,susan.edwards@meridianfs.com,Learning & Development,Training Coordinator,Denver,2018-11-19,6.1,Full-Time,False,EMP1003
+EMP1008,Edward Brooks,Edward,Brooks,edward.brooks@meridianfs.com,Learning & Development,Instructional Designer,New York,2020-02-27,4.8,Full-Time,False,EMP1011
+EMP1009,Donna Anderson,Donna,Anderson,donna.anderson@meridianfs.com,Learning & Development,Instructional Designer,Dallas,2020-08-11,4.4,Full-Time,False,EMP1011
+EMP1010,Virginia Parker,Virginia,Parker,virginia.parker@meridianfs.com,Learning & Development,Training Coordinator,Atlanta,2019-10-29,5.2,Full-Time,False,EMP1003
+EMP1011,Joshua Russell,Joshua,Russell,joshua.russell@meridianfs.com,Learning & Development,L&D Specialist,San Francisco,2018-10-20,6.2,Full-Time,True,
+EMP1012,Matthew Peterson,Matthew,Peterson,matthew.peterson@meridianfs.com,Learning & Development,Training Coordinator,Boston,2022-04-04,2.7,Full-Time,False,EMP1011
+EMP1013,Steven Powell,Steven,Powell,steven.powell@meridianfs.com,Learning & Development,Instructional Designer,Chicago,2021-08-21,3.4,Full-Time,False,EMP1000
+EMP1014,George Flores,George,Flores,george.flores@meridianfs.com,Learning & Development,Instructional Designer,Chicago,2021-01-01,4.0,Part-Time,False,EMP1011
+EMP1015,Brandon Jenkins,Brandon,Jenkins,brandon.jenkins@meridianfs.com,Learning & Development,L&D Specialist,Boston,2021-07-12,3.5,Full-Time,False,EMP1000
+EMP1016,Frank Morgan,Frank,Morgan,frank.morgan@meridianfs.com,Learning & Development,Training Coordinator,Chicago,2019-08-09,5.4,Full-Time,False,EMP1000
+EMP1017,Benjamin Flores,Benjamin,Flores,benjamin.flores@meridianfs.com,Human Resources,HR Specialist,Chicago,2022-01-22,2.9,Full-Time,False,EMP1025
+EMP1018,Patricia Fisher,Patricia,Fisher,patricia.fisher@meridianfs.com,Human Resources,HR Generalist,Chicago,2018-07-12,6.5,Full-Time,False,EMP1031
+EMP1019,Joyce Murphy,Joyce,Murphy,joyce.murphy@meridianfs.com,Human Resources,HR Manager,Dallas,2018-09-18,6.3,Full-Time,False,EMP1030
+EMP1020,Rebecca Ward,Rebecca,Ward,rebecca.ward@meridianfs.com,Human Resources,HR Generalist,Boston,2020-10-26,4.2,Full-Time,False,EMP1030
+EMP1021,Joyce Cox,Joyce,Cox,joyce.cox@meridianfs.com,Human Resources,HR Coordinator,New York,2020-12-28,4.0,Full-Time,False,EMP1031
+EMP1022,Matthew Morgan,Matthew,Morgan,matthew.morgan@meridianfs.com,Human Resources,HR Coordinator,San Francisco,2018-01-14,7.0,Full-Time,False,EMP1025
+EMP1023,Stephen Hernandez,Stephen,Hernandez,stephen.hernandez@meridianfs.com,Human Resources,HR Specialist,Chicago,2021-05-07,3.7,Full-Time,False,EMP1031
+EMP1024,Matthew Diaz,Matthew,Diaz,matthew.diaz@meridianfs.com,Human Resources,HR Generalist,San Francisco,2023-12-13,1.1,Full-Time,False,EMP1030
+EMP1025,David Moore,David,Moore,david.moore@meridianfs.com,Human Resources,HR Coordinator,Chicago,2022-01-26,2.9,Full-Time,True,
+EMP1026,Brandon Anderson,Brandon,Anderson,brandon.anderson@meridianfs.com,Human Resources,HR Manager,Denver,2018-12-17,6.0,Full-Time,False,EMP1031
+EMP1027,Justin Coleman,Justin,Coleman,justin.coleman@meridianfs.com,Human Resources,HR Specialist,Boston,2019-05-31,5.6,Full-Time,False,EMP1031
+EMP1028,Scott Gonzalez,Scott,Gonzalez,scott.gonzalez@meridianfs.com,Human Resources,HR Manager,Chicago,2020-12-21,4.0,Part-Time,False,EMP1030
+EMP1029,Jack Robinson,Jack,Robinson,jack.robinson@meridianfs.com,Human Resources,HR Manager,Boston,2021-06-30,3.5,Full-Time,False,EMP1030
+EMP1030,Jacob Howard,Jacob,Howard,jacob.howard@meridianfs.com,Human Resources,HR Generalist,Chicago,2023-01-24,1.9,Full-Time,True,
+EMP1031,Sharon Williams,Sharon,Williams,sharon.williams@meridianfs.com,Human Resources,HR Specialist,New York,2020-07-31,4.4,Full-Time,True,
+EMP1032,Gregory Davis,Gregory,Davis,gregory.davis@meridianfs.com,Human Resources,HR Generalist,New York,2020-07-26,4.4,Part-Time,False,EMP1025
+EMP1033,Karen Kelly,Karen,Kelly,karen.kelly@meridianfs.com,Human Resources,HR Coordinator,Boston,2020-09-01,4.3,Full-Time,False,EMP1025
+EMP1034,Eric Morris,Eric,Morris,eric.morris@meridianfs.com,Talent Management,Talent Acquisition Specialist,New York,2020-02-19,4.9,Full-Time,False,EMP1038
+EMP1035,Michelle Murphy,Michelle,Murphy,michelle.murphy@meridianfs.com,Talent Management,Sourcing Specialist,Denver,2022-08-11,2.4,Full-Time,False,EMP1037
+EMP1036,Raymond Foster,Raymond,Foster,raymond.foster@meridianfs.com,Talent Management,Talent Acquisition Specialist,Dallas,2019-02-08,5.9,Full-Time,False,EMP1038
+EMP1037,Barbara Sanchez,Barbara,Sanchez,barbara.sanchez@meridianfs.com,Talent Management,Recruiter,San Francisco,2020-02-24,4.9,Full-Time,True,
+EMP1038,Ryan Clark,Ryan,Clark,ryan.clark@meridianfs.com,Talent Management,Sourcing Specialist,Chicago,2021-02-14,3.9,Part-Time,True,
+EMP1039,Karen Cook,Karen,Cook,karen.cook@meridianfs.com,Talent Management,Talent Acquisition Specialist,Boston,2019-02-06,5.9,Part-Time,False,EMP1049
+EMP1040,Maria Taylor,Maria,Taylor,maria.taylor@meridianfs.com,Talent Management,Recruiter,Dallas,2020-08-26,4.4,Full-Time,False,EMP1037
+EMP1041,Betty Flores,Betty,Flores,betty.flores@meridianfs.com,Talent Management,Recruiter,Dallas,2018-08-29,6.3,Full-Time,False,EMP1038
+EMP1042,Emily King,Emily,King,emily.king@meridianfs.com,Talent Management,Talent Manager,Dallas,2023-02-07,1.9,Full-Time,False,EMP1049
+EMP1043,Shirley Sanders,Shirley,Sanders,shirley.sanders@meridianfs.com,Talent Management,Recruiter,Chicago,2023-06-17,1.5,Full-Time,False,EMP1049
+EMP1044,Linda Bennett,Linda,Bennett,linda.bennett@meridianfs.com,Talent Management,Talent Manager,New York,2018-09-07,6.3,Full-Time,False,EMP1038
+EMP1045,Sharon Gomez,Sharon,Gomez,sharon.gomez@meridianfs.com,Talent Management,Recruiter,New York,2023-12-16,1.0,Part-Time,False,EMP1038
+EMP1046,Richard Clark,Richard,Clark,richard.clark@meridianfs.com,Talent Management,Talent Acquisition Specialist,Boston,2018-10-08,6.2,Part-Time,False,EMP1049
+EMP1047,Amanda Martin,Amanda,Martin,amanda.martin@meridianfs.com,Talent Management,Talent Acquisition Specialist,San Francisco,2020-10-05,4.2,Full-Time,False,EMP1049
+EMP1048,Patrick Bennett,Patrick,Bennett,patrick.bennett@meridianfs.com,Talent Management,Talent Manager,Atlanta,2023-11-12,1.1,Full-Time,False,EMP1038
+EMP1049,George Allen,George,Allen,george.allen@meridianfs.com,Talent Management,Sourcing Specialist,Chicago,2020-12-23,4.0,Full-Time,True,
+EMP1050,Brian Morgan,Brian,Morgan,brian.morgan@meridianfs.com,Talent Management,Talent Acquisition Specialist,New York,2021-07-19,3.5,Full-Time,False,EMP1038
+EMP1051,Betty Gomez,Betty,Gomez,betty.gomez@meridianfs.com,Organizational Development,Change Management Specialist,Atlanta,2020-12-22,4.0,Part-Time,False,EMP1059
+EMP1052,Ashley Evans,Ashley,Evans,ashley.evans@meridianfs.com,Organizational Development,Change Management Specialist,Dallas,2021-03-13,3.8,Full-Time,False,EMP1059
+EMP1053,Brian Cruz,Brian,Cruz,brian.cruz@meridianfs.com,Organizational Development,OD Consultant,Boston,2023-12-07,1.1,Full-Time,True,
+EMP1054,Brian Sanders,Brian,Sanders,brian.sanders@meridianfs.com,Organizational Development,Change Management Specialist,Atlanta,2019-03-01,5.8,Full-Time,True,
+EMP1055,Barbara Barnes,Barbara,Barnes,barbara.barnes@meridianfs.com,Organizational Development,OD Analyst,Atlanta,2019-09-29,5.3,Full-Time,False,EMP1054
+EMP1056,Sharon Walker,Sharon,Walker,sharon.walker@meridianfs.com,Organizational Development,OD Manager,Atlanta,2020-12-17,4.0,Part-Time,False,EMP1054
+EMP1057,Robert Taylor,Robert,Taylor,robert.taylor@meridianfs.com,Organizational Development,OD Analyst,New York,2022-10-01,2.3,Full-Time,False,EMP1059
+EMP1058,Charles Myers,Charles,Myers,charles.myers@meridianfs.com,Organizational Development,Change Management Specialist,Boston,2020-12-08,4.1,Full-Time,False,EMP1054
+EMP1059,Ryan Wood,Ryan,Wood,ryan.wood@meridianfs.com,Organizational Development,OD Consultant,New York,2018-02-09,6.9,Part-Time,True,
+EMP1060,Jack Lopez,Jack,Lopez,jack.lopez@meridianfs.com,Organizational Development,OD Analyst,San Francisco,2018-05-28,6.6,Full-Time,False,EMP1054
+EMP1061,Deborah Jackson,Deborah,Jackson,deborah.jackson@meridianfs.com,Organizational Development,OD Analyst,Atlanta,2018-06-21,6.5,Part-Time,False,EMP1054
+EMP1062,Jennifer Campbell,Jennifer,Campbell,jennifer.campbell@meridianfs.com,Organizational Development,Change Management Specialist,Boston,2020-05-10,4.6,Full-Time,False,EMP1054
+EMP1063,Shirley Morris,Shirley,Morris,shirley.morris@meridianfs.com,Organizational Development,Change Management Specialist,Denver,2019-09-26,5.3,Full-Time,False,EMP1053
+EMP1064,Anthony Morris,Anthony,Morris,anthony.morris@meridianfs.com,Organizational Development,Change Management Specialist,Boston,2018-04-12,6.7,Part-Time,False,EMP1053
+EMP1065,Jeffrey Ross,Jeffrey,Ross,jeffrey.ross@meridianfs.com,Organizational Development,OD Analyst,Chicago,2020-10-13,4.2,Full-Time,False,EMP1059
+EMP1066,Barbara Edwards,Barbara,Edwards,barbara.edwards@meridianfs.com,Organizational Development,OD Manager,Chicago,2018-06-08,6.6,Full-Time,False,EMP1053
+EMP1067,Nicholas Phillips,Nicholas,Phillips,nicholas.phillips@meridianfs.com,Organizational Development,Change Management Specialist,Chicago,2021-06-04,3.6,Full-Time,False,EMP1054
+EMP1068,Kimberly Wilson,Kimberly,Wilson,kimberly.wilson@meridianfs.com,People Operations,People Ops Coordinator,Boston,2021-02-17,3.9,Full-Time,False,EMP1073
+EMP1069,Raymond Cox,Raymond,Cox,raymond.cox@meridianfs.com,People Operations,People Ops Specialist,New York,2021-09-18,3.3,Part-Time,False,EMP1080
+EMP1070,Dorothy Harris,Dorothy,Harris,dorothy.harris@meridianfs.com,People Operations,People Ops Specialist,New York,2020-12-23,4.0,Full-Time,False,EMP1080
+EMP1071,Ronald Perry,Ronald,Perry,ronald.perry@meridianfs.com,People Operations,People Ops Manager,San Francisco,2021-07-08,3.5,Part-Time,False,EMP1080
+EMP1072,Thomas Collins,Thomas,Collins,thomas.collins@meridianfs.com,People Operations,People Ops Coordinator,New York,2020-02-18,4.9,Full-Time,False,EMP1073
+EMP1073,James Howard,James,Howard,james.howard@meridianfs.com,People Operations,People Ops Coordinator,Dallas,2020-03-18,4.8,Full-Time,True,
+EMP1074,Ruby Roberts,Ruby,Roberts,ruby.roberts@meridianfs.com,People Operations,People Ops Specialist,Boston,2021-07-09,3.5,Part-Time,True,
+EMP1075,Stephen Carter,Stephen,Carter,stephen.carter@meridianfs.com,People Operations,People Ops Coordinator,Dallas,2022-07-31,2.4,Full-Time,False,EMP1073
+EMP1076,Scott Jackson,Scott,Jackson,scott.jackson@meridianfs.com,People Operations,People Ops Manager,Boston,2020-02-25,4.9,Part-Time,False,EMP1073
+EMP1077,Raymond Barnes,Raymond,Barnes,raymond.barnes@meridianfs.com,People Operations,People Ops Coordinator,Dallas,2019-12-14,5.1,Full-Time,False,EMP1080
+EMP1078,James Nelson,James,Nelson,james.nelson@meridianfs.com,People Operations,HRIS Analyst,Dallas,2021-03-21,3.8,Full-Time,False,EMP1074
+EMP1079,Pamela Foster,Pamela,Foster,pamela.foster@meridianfs.com,People Operations,People Ops Manager,Dallas,2021-08-12,3.4,Full-Time,False,EMP1074
+EMP1080,Betty Kelly,Betty,Kelly,betty.kelly@meridianfs.com,People Operations,HRIS Analyst,Boston,2023-04-23,1.7,Full-Time,True,
+EMP1081,Kathleen Sanders,Kathleen,Sanders,kathleen.sanders@meridianfs.com,People Operations,People Ops Specialist,Denver,2021-10-04,3.2,Part-Time,False,EMP1080
+EMP1082,Paul Morales,Paul,Morales,paul.morales@meridianfs.com,People Operations,HRIS Analyst,Denver,2021-06-25,3.5,Full-Time,False,EMP1080
+EMP1083,Sarah Garcia,Sarah,Garcia,sarah.garcia@meridianfs.com,People Operations,People Ops Manager,San Francisco,2020-09-29,4.3,Full-Time,False,EMP1080
+EMP1084,Karen Morgan,Karen,Morgan,karen.morgan@meridianfs.com,People Operations,HRIS Analyst,Boston,2022-08-25,2.4,Full-Time,False,EMP1080
+EMP1085,Daniel Foster,Daniel,Foster,daniel.foster@meridianfs.com,HR Business Partners,HR Business Partner,Denver,2018-01-23,6.9,Full-Time,False,EMP1097
+EMP1086,Anthony Russell,Anthony,Russell,anthony.russell@meridianfs.com,HR Business Partners,Sr. HR Business Partner,New York,2023-10-23,1.2,Full-Time,False,EMP1088
+EMP1087,Susan Morgan,Susan,Morgan,susan.morgan@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Boston,2019-07-01,5.5,Full-Time,False,EMP1088
+EMP1088,Shirley James,Shirley,James,shirley.james@meridianfs.com,HR Business Partners,Sr. HR Business Partner,San Francisco,2021-07-23,3.4,Full-Time,True,
+EMP1089,Stephen Murphy,Stephen,Murphy,stephen.murphy@meridianfs.com,HR Business Partners,HR Business Partner,Boston,2023-01-01,2.0,Part-Time,False,EMP1097
+EMP1090,Stephanie King,Stephanie,King,stephanie.king@meridianfs.com,HR Business Partners,HRBP Associate,Atlanta,2020-10-09,4.2,Full-Time,False,EMP1088
+EMP1091,Larry Bailey,Larry,Bailey,larry.bailey@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Dallas,2020-09-06,4.3,Full-Time,False,EMP1097
+EMP1092,Kevin Allen,Kevin,Allen,kevin.allen@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Atlanta,2021-01-17,4.0,Part-Time,False,EMP1088
+EMP1093,Richard Thompson,Richard,Thompson,richard.thompson@meridianfs.com,HR Business Partners,HR Business Partner,Dallas,2019-09-10,5.3,Full-Time,False,EMP1097
+EMP1094,Betty Wilson,Betty,Wilson,betty.wilson@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Atlanta,2022-08-27,2.4,Full-Time,False,EMP1088
+EMP1095,Melissa Davis,Melissa,Davis,melissa.davis@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Dallas,2020-04-27,4.7,Part-Time,False,EMP1100
+EMP1096,Benjamin Russell,Benjamin,Russell,benjamin.russell@meridianfs.com,HR Business Partners,HRBP Associate,Dallas,2018-03-22,6.8,Full-Time,False,EMP1100
+EMP1097,Michelle Nelson,Michelle,Nelson,michelle.nelson@meridianfs.com,HR Business Partners,Sr. HR Business Partner,San Francisco,2022-05-17,2.6,Full-Time,True,
+EMP1098,Angela Reyes,Angela,Reyes,angela.reyes@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Chicago,2020-06-22,4.5,Full-Time,False,EMP1088
+EMP1099,Jonathan Brown,Jonathan,Brown,jonathan.brown@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Boston,2022-05-12,2.6,Full-Time,False,EMP1097
+EMP1100,Amanda Gutierrez,Amanda,Gutierrez,amanda.gutierrez@meridianfs.com,HR Business Partners,Sr. HR Business Partner,Chicago,2019-11-08,5.2,Part-Time,True,
+EMP1101,Justin Brown,Justin,Brown,justin.brown@meridianfs.com,HR Business Partners,HRBP Associate,San Francisco,2022-06-02,2.6,Full-Time,False,EMP1088
+EMP1102,Rebecca Clark,Rebecca,Clark,rebecca.clark@meridianfs.com,Workforce Planning,Strategic Workforce Analyst,Dallas,2018-07-25,6.4,Full-Time,False,EMP1104
+EMP1103,Nicholas Perez,Nicholas,Perez,nicholas.perez@meridianfs.com,Workforce Planning,Workforce Planning Manager,Atlanta,2021-10-14,3.2,Full-Time,False,EMP1115
+EMP1104,Melissa Wright,Melissa,Wright,melissa.wright@meridianfs.com,Workforce Planning,Workforce Planning Manager,New York,2018-12-02,6.1,Full-Time,True,
+EMP1105,Robert Phillips,Robert,Phillips,robert.phillips@meridianfs.com,Workforce Planning,Workforce Planning Analyst,Denver,2020-07-07,4.5,Part-Time,False,EMP1106
+EMP1106,Jennifer Fisher,Jennifer,Fisher,jennifer.fisher@meridianfs.com,Workforce Planning,Workforce Planner,Chicago,2018-05-08,6.7,Full-Time,True,
+EMP1107,Emma Lopez,Emma,Lopez,emma.lopez@meridianfs.com,Workforce Planning,Workforce Planner,Dallas,2020-09-04,4.3,Full-Time,False,EMP1115
+EMP1108,Brandon Perez,Brandon,Perez,brandon.perez@meridianfs.com,Workforce Planning,Strategic Workforce Analyst,Denver,2023-03-20,1.8,Full-Time,False,EMP1104
+EMP1109,Pamela Reyes,Pamela,Reyes,pamela.reyes@meridianfs.com,Workforce Planning,Workforce Planner,Atlanta,2019-04-15,5.7,Full-Time,False,EMP1115
+EMP1110,Sarah Carter,Sarah,Carter,sarah.carter@meridianfs.com,Workforce Planning,Workforce Planning Manager,Boston,2022-03-18,2.8,Full-Time,False,EMP1106
+EMP1111,Brenda Sullivan,Brenda,Sullivan,brenda.sullivan@meridianfs.com,Workforce Planning,Workforce Planning Analyst,Boston,2020-09-21,4.3,Full-Time,False,EMP1104
+EMP1112,Joyce James,Joyce,James,joyce.james@meridianfs.com,Workforce Planning,Workforce Planning Analyst,Atlanta,2019-05-11,5.6,Full-Time,False,EMP1104
+EMP1113,Patrick Evans,Patrick,Evans,patrick.evans@meridianfs.com,Workforce Planning,Strategic Workforce Analyst,New York,2018-10-10,6.2,Full-Time,False,EMP1115
+EMP1114,Jonathan Hernandez,Jonathan,Hernandez,jonathan.hernandez@meridianfs.com,Workforce Planning,Strategic Workforce Analyst,Boston,2022-11-11,2.1,Part-Time,False,EMP1106
+EMP1115,Nicholas Ortiz,Nicholas,Ortiz,nicholas.ortiz@meridianfs.com,Workforce Planning,Workforce Planning Manager,Chicago,2019-09-19,5.3,Full-Time,True,
+EMP1116,Evelyn Scott,Evelyn,Scott,evelyn.scott@meridianfs.com,Workforce Planning,Workforce Planning Manager,Dallas,2023-06-04,1.6,Full-Time,False,EMP1106
+EMP1117,Brenda Scott,Brenda,Scott,brenda.scott@meridianfs.com,Workforce Planning,Workforce Planner,Denver,2021-08-13,3.4,Part-Time,False,EMP1106
+EMP1118,Kimberly Rogers,Kimberly,Rogers,kimberly.rogers@meridianfs.com,Workforce Planning,Workforce Planning Manager,San Francisco,2020-09-25,4.3,Full-Time,False,EMP1106
+EMP1119,Jason Turner,Jason,Turner,jason.turner@meridianfs.com,Workforce Planning,Workforce Planning Manager,Denver,2018-04-28,6.7,Full-Time,False,EMP1106

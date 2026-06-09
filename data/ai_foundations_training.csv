@@ -1,0 +1,241 @@
+training_id,emp_id,employee_name,department,course_id,course_name,course_type,delivery_method,status,pct_complete,modules_completed,total_modules,score,passed,completion_date,time_spent_mins,assigned_date
+TR0001,EMP1000,Kimberly Sanchez,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,96.1,True,2025-03-27,212,2025-03-01
+TR0002,EMP1001,Angela Taylor,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,81.2,True,2025-04-06,237,2025-03-02
+TR0003,EMP1002,Sandra Gomez,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.25,2,8,,,,49,2025-03-01
+TR0004,EMP1003,Angela Nguyen,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-05
+TR0005,EMP1004,James Henderson,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,83.4,True,2025-03-21,196,2025-03-04
+TR0006,EMP1005,Betty Henderson,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.62,5,8,,,,58,2025-03-13
+TR0007,EMP1006,Michelle Phillips,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-07
+TR0008,EMP1007,Susan Edwards,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,93.4,True,2025-04-06,199,2025-03-08
+TR0009,EMP1008,Edward Brooks,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,85.1,True,2025-03-23,279,2025-03-10
+TR0010,EMP1009,Donna Anderson,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,85.6,True,2025-04-05,157,2025-03-13
+TR0011,EMP1010,Virginia Parker,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.25,2,8,,,,52,2025-03-03
+TR0012,EMP1011,Joshua Russell,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.12,1,8,,,,82,2025-03-03
+TR0013,EMP1012,Matthew Peterson,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,74.6,True,2025-04-19,149,2025-03-10
+TR0014,EMP1013,Steven Powell,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,67.3,False,2025-04-13,149,2025-03-05
+TR0015,EMP1014,George Flores,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-13
+TR0016,EMP1015,Brandon Jenkins,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-10
+TR0017,EMP1016,Frank Morgan,Learning & Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.25,2,8,,,,84,2025-03-15
+TR0018,EMP1017,Benjamin Flores,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,95.0,True,2025-03-23,126,2025-03-04
+TR0019,EMP1018,Patricia Fisher,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,84.6,True,2025-04-01,235,2025-03-03
+TR0020,EMP1019,Joyce Murphy,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-08
+TR0021,EMP1020,Rebecca Ward,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,88.1,True,2025-04-10,159,2025-03-12
+TR0022,EMP1021,Joyce Cox,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,40,2025-03-08
+TR0023,EMP1022,Matthew Morgan,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,124,2025-03-15
+TR0024,EMP1023,Stephen Hernandez,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,68.0,False,2025-03-16,262,2025-03-05
+TR0025,EMP1024,Matthew Diaz,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-10
+TR0026,EMP1025,David Moore,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,116,2025-03-01
+TR0027,EMP1026,Brandon Anderson,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-10
+TR0028,EMP1027,Justin Coleman,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,80.5,True,2025-04-03,256,2025-03-13
+TR0029,EMP1028,Scott Gonzalez,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,97.9,True,2025-03-26,201,2025-03-05
+TR0030,EMP1029,Jack Robinson,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.12,1,8,,,,90,2025-03-08
+TR0031,EMP1030,Jacob Howard,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,87.1,True,2025-04-05,131,2025-03-06
+TR0032,EMP1031,Sharon Williams,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,74.5,True,2025-04-22,192,2025-03-12
+TR0033,EMP1032,Gregory Davis,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-09
+TR0034,EMP1033,Karen Kelly,Human Resources,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,73.3,True,2025-04-01,119,2025-03-02
+TR0035,EMP1034,Eric Morris,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-07
+TR0036,EMP1035,Michelle Murphy,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-14
+TR0037,EMP1036,Raymond Foster,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-11
+TR0038,EMP1037,Barbara Sanchez,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-08
+TR0039,EMP1038,Ryan Clark,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,76.9,True,2025-04-16,283,2025-03-04
+TR0040,EMP1039,Karen Cook,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,71.7,True,2025-03-21,230,2025-03-08
+TR0041,EMP1040,Maria Taylor,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,94.1,True,2025-04-12,214,2025-03-05
+TR0042,EMP1041,Betty Flores,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,88.4,True,2025-04-05,169,2025-03-11
+TR0043,EMP1042,Emily King,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,41,2025-03-09
+TR0044,EMP1043,Shirley Sanders,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,80.2,True,2025-03-31,120,2025-03-14
+TR0045,EMP1044,Linda Bennett,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,149,2025-03-03
+TR0046,EMP1045,Sharon Gomez,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.75,6,8,,,,64,2025-03-09
+TR0047,EMP1046,Richard Clark,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,73.0,True,2025-04-17,231,2025-03-08
+TR0048,EMP1047,Amanda Martin,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,89.6,True,2025-04-15,124,2025-03-04
+TR0049,EMP1048,Patrick Bennett,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-05
+TR0050,EMP1049,George Allen,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-14
+TR0051,EMP1050,Brian Morgan,Talent Management,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,73.8,True,2025-04-26,90,2025-03-15
+TR0052,EMP1051,Betty Gomez,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,93.6,True,2025-04-15,204,2025-03-05
+TR0053,EMP1052,Ashley Evans,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.38,3,8,,,,100,2025-03-06
+TR0054,EMP1053,Brian Cruz,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-07
+TR0055,EMP1054,Brian Sanders,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,97.4,True,2025-03-28,151,2025-03-06
+TR0056,EMP1055,Barbara Barnes,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,129,2025-03-04
+TR0057,EMP1056,Sharon Walker,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,88.3,True,2025-04-15,297,2025-03-06
+TR0058,EMP1057,Robert Taylor,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,81.3,True,2025-03-30,99,2025-03-11
+TR0059,EMP1058,Charles Myers,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,93.7,True,2025-04-10,202,2025-03-10
+TR0060,EMP1059,Ryan Wood,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,65.5,False,2025-04-23,126,2025-03-15
+TR0061,EMP1060,Jack Lopez,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,67.5,False,2025-03-30,290,2025-03-11
+TR0062,EMP1061,Deborah Jackson,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-06
+TR0063,EMP1062,Jennifer Campbell,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.75,6,8,,,,40,2025-03-07
+TR0064,EMP1063,Shirley Morris,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-14
+TR0065,EMP1064,Anthony Morris,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,70,2025-03-09
+TR0066,EMP1065,Jeffrey Ross,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,92,2025-03-15
+TR0067,EMP1066,Barbara Edwards,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-01
+TR0068,EMP1067,Nicholas Phillips,Organizational Development,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.75,6,8,,,,117,2025-03-04
+TR0069,EMP1068,Kimberly Wilson,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-04
+TR0070,EMP1069,Raymond Cox,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.12,1,8,,,,127,2025-03-07
+TR0071,EMP1070,Dorothy Harris,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.12,1,8,,,,86,2025-03-14
+TR0072,EMP1071,Ronald Perry,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,66.5,False,2025-03-16,293,2025-03-05
+TR0073,EMP1072,Thomas Collins,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,79.2,True,2025-04-08,152,2025-03-06
+TR0074,EMP1073,James Howard,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.75,6,8,,,,131,2025-03-10
+TR0075,EMP1074,Ruby Roberts,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,85.1,True,2025-03-18,187,2025-03-03
+TR0076,EMP1075,Stephen Carter,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,146,2025-03-04
+TR0077,EMP1076,Scott Jackson,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,111,2025-03-04
+TR0078,EMP1077,Raymond Barnes,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,94.7,True,2025-03-15,209,2025-03-05
+TR0079,EMP1078,James Nelson,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-11
+TR0080,EMP1079,Pamela Foster,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,150,2025-03-02
+TR0081,EMP1080,Betty Kelly,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,86.1,True,2025-04-08,198,2025-03-10
+TR0082,EMP1081,Kathleen Sanders,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,68,2025-03-08
+TR0083,EMP1082,Paul Morales,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,68.5,False,2025-04-16,187,2025-03-07
+TR0084,EMP1083,Sarah Garcia,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.38,3,8,,,,119,2025-03-10
+TR0085,EMP1084,Karen Morgan,People Operations,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,74.1,True,2025-04-18,234,2025-03-14
+TR0086,EMP1085,Daniel Foster,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-13
+TR0087,EMP1086,Anthony Russell,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.62,5,8,,,,125,2025-03-01
+TR0088,EMP1087,Susan Morgan,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,90.6,True,2025-04-12,148,2025-03-15
+TR0089,EMP1088,Shirley James,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.25,2,8,,,,111,2025-03-06
+TR0090,EMP1089,Stephen Murphy,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,85.7,True,2025-03-23,250,2025-03-05
+TR0091,EMP1090,Stephanie King,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,86,2025-03-05
+TR0092,EMP1091,Larry Bailey,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,68.0,False,2025-03-24,165,2025-03-06
+TR0093,EMP1092,Kevin Allen,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,71.6,True,2025-03-28,291,2025-03-07
+TR0094,EMP1093,Richard Thompson,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.62,5,8,,,,94,2025-03-06
+TR0095,EMP1094,Betty Wilson,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-14
+TR0096,EMP1095,Melissa Davis,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,96.9,True,2025-04-24,165,2025-03-15
+TR0097,EMP1096,Benjamin Russell,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,44,2025-03-06
+TR0098,EMP1097,Michelle Nelson,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,89.9,True,2025-03-21,147,2025-03-02
+TR0099,EMP1098,Angela Reyes,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-12
+TR0100,EMP1099,Jonathan Brown,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,132,2025-03-07
+TR0101,EMP1100,Amanda Gutierrez,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.88,7,8,,,,80,2025-03-02
+TR0102,EMP1101,Justin Brown,HR Business Partners,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,80.0,True,2025-03-26,262,2025-03-09
+TR0103,EMP1102,Rebecca Clark,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.62,5,8,,,,78,2025-03-05
+TR0104,EMP1103,Nicholas Perez,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-06
+TR0105,EMP1104,Melissa Wright,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,65.8,False,2025-04-13,233,2025-03-04
+TR0106,EMP1105,Robert Phillips,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,86.4,True,2025-04-03,252,2025-03-10
+TR0107,EMP1106,Jennifer Fisher,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-15
+TR0108,EMP1107,Emma Lopez,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,44,2025-03-11
+TR0109,EMP1108,Brandon Perez,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,97.9,True,2025-03-30,119,2025-03-01
+TR0110,EMP1109,Pamela Reyes,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,69.5,False,2025-04-28,206,2025-03-15
+TR0111,EMP1110,Sarah Carter,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,78.8,True,2025-04-25,280,2025-03-12
+TR0112,EMP1111,Brenda Sullivan,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.5,4,8,,,,113,2025-03-15
+TR0113,EMP1112,Joyce James,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,96.0,True,2025-04-13,161,2025-03-08
+TR0114,EMP1113,Patrick Evans,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,79.6,True,2025-03-29,150,2025-03-06
+TR0115,EMP1114,Jonathan Hernandez,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-02
+TR0116,EMP1115,Nicholas Ortiz,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-06
+TR0117,EMP1116,Evelyn Scott,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,In Progress,0.38,3,8,,,,37,2025-03-11
+TR0118,EMP1117,Brenda Scott,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,96.3,True,2025-03-21,300,2025-03-04
+TR0119,EMP1118,Kimberly Rogers,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Completed,1.0,8,8,86.2,True,2025-04-03,242,2025-03-11
+TR0120,EMP1119,Jason Turner,Workforce Planning,AIFD-001,AI Foundations with Claude,Core Curriculum,Self-Paced LMS,Not Started,0.0,0,8,,,,0,2025-03-01
+TR0121,EMP1000,Kimberly Sanchez,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-04
+TR0122,EMP1001,Angela Taylor,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-13
+TR0123,EMP1002,Sandra Gomez,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.4,2,5,,,,105,2025-03-02
+TR0124,EMP1003,Angela Nguyen,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,75.8,True,2025-04-07,127,2025-03-14
+TR0125,EMP1004,James Henderson,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-10
+TR0126,EMP1005,Betty Henderson,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,97.6,True,2025-04-02,228,2025-03-14
+TR0127,EMP1006,Michelle Phillips,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,86.8,True,2025-03-20,96,2025-03-03
+TR0128,EMP1007,Susan Edwards,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,84.4,True,2025-03-31,94,2025-03-06
+TR0129,EMP1008,Edward Brooks,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,89.5,True,2025-03-19,224,2025-03-01
+TR0130,EMP1009,Donna Anderson,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,79.8,True,2025-04-11,182,2025-03-02
+TR0131,EMP1010,Virginia Parker,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.8,4,5,,,,94,2025-03-02
+TR0132,EMP1011,Joshua Russell,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,89.0,True,2025-03-22,258,2025-03-10
+TR0133,EMP1012,Matthew Peterson,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.2,1,5,,,,37,2025-03-08
+TR0134,EMP1013,Steven Powell,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-14
+TR0135,EMP1014,George Flores,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,81.2,True,2025-03-27,203,2025-03-11
+TR0136,EMP1015,Brandon Jenkins,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,85.1,True,2025-04-01,106,2025-03-02
+TR0137,EMP1016,Frank Morgan,Learning & Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,88.5,True,2025-04-24,187,2025-03-10
+TR0138,EMP1017,Benjamin Flores,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-09
+TR0139,EMP1018,Patricia Fisher,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,68.3,False,2025-04-15,269,2025-03-09
+TR0140,EMP1019,Joyce Murphy,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,88.8,True,2025-04-25,145,2025-03-11
+TR0141,EMP1020,Rebecca Ward,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,78.7,True,2025-04-08,206,2025-03-15
+TR0142,EMP1021,Joyce Cox,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,75.3,True,2025-03-28,170,2025-03-12
+TR0143,EMP1022,Matthew Morgan,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.4,2,5,,,,117,2025-03-06
+TR0144,EMP1023,Stephen Hernandez,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-02
+TR0145,EMP1024,Matthew Diaz,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,79.3,True,2025-03-17,280,2025-03-02
+TR0146,EMP1025,David Moore,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.4,2,5,,,,101,2025-03-13
+TR0147,EMP1026,Brandon Anderson,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,75.9,True,2025-04-23,121,2025-03-09
+TR0148,EMP1027,Justin Coleman,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,93.6,True,2025-04-20,274,2025-03-14
+TR0149,EMP1028,Scott Gonzalez,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,76.6,True,2025-04-03,237,2025-03-05
+TR0150,EMP1029,Jack Robinson,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.8,4,5,,,,58,2025-03-03
+TR0151,EMP1030,Jacob Howard,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-06
+TR0152,EMP1031,Sharon Williams,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-06
+TR0153,EMP1032,Gregory Davis,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,91.6,True,2025-03-29,233,2025-03-05
+TR0154,EMP1033,Karen Kelly,Human Resources,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-14
+TR0155,EMP1034,Eric Morris,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.2,1,5,,,,107,2025-03-11
+TR0156,EMP1035,Michelle Murphy,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-14
+TR0157,EMP1036,Raymond Foster,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.4,2,5,,,,64,2025-03-01
+TR0158,EMP1037,Barbara Sanchez,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,74,2025-03-05
+TR0159,EMP1038,Ryan Clark,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,83.7,True,2025-04-02,192,2025-03-14
+TR0160,EMP1039,Karen Cook,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,68.0,False,2025-03-23,225,2025-03-12
+TR0161,EMP1040,Maria Taylor,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,76.2,True,2025-04-15,184,2025-03-07
+TR0162,EMP1041,Betty Flores,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,94.2,True,2025-03-21,129,2025-03-06
+TR0163,EMP1042,Emily King,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,87.2,True,2025-03-23,159,2025-03-10
+TR0164,EMP1043,Shirley Sanders,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,85.0,True,2025-04-17,196,2025-03-07
+TR0165,EMP1044,Linda Bennett,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,68.8,False,2025-04-24,200,2025-03-13
+TR0166,EMP1045,Sharon Gomez,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,82.4,True,2025-04-21,168,2025-03-11
+TR0167,EMP1046,Richard Clark,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,65.3,False,2025-03-20,167,2025-03-07
+TR0168,EMP1047,Amanda Martin,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-13
+TR0169,EMP1048,Patrick Bennett,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,75.8,True,2025-04-02,91,2025-03-05
+TR0170,EMP1049,George Allen,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,69.3,False,2025-03-28,226,2025-03-07
+TR0171,EMP1050,Brian Morgan,Talent Management,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,39,2025-03-09
+TR0172,EMP1051,Betty Gomez,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,79.4,True,2025-03-24,207,2025-03-12
+TR0173,EMP1052,Ashley Evans,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-14
+TR0174,EMP1053,Brian Cruz,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,88.4,True,2025-04-11,196,2025-03-07
+TR0175,EMP1054,Brian Sanders,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,96.9,True,2025-03-18,133,2025-03-07
+TR0176,EMP1055,Barbara Barnes,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-10
+TR0177,EMP1056,Sharon Walker,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,67.9,False,2025-04-14,117,2025-03-12
+TR0178,EMP1057,Robert Taylor,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,82.3,True,2025-04-14,191,2025-03-10
+TR0179,EMP1058,Charles Myers,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-12
+TR0180,EMP1059,Ryan Wood,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,67.5,False,2025-03-26,252,2025-03-06
+TR0181,EMP1060,Jack Lopez,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,94.9,True,2025-03-31,179,2025-03-09
+TR0182,EMP1061,Deborah Jackson,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,72.8,True,2025-04-02,127,2025-03-14
+TR0183,EMP1062,Jennifer Campbell,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,90.1,True,2025-03-22,257,2025-03-03
+TR0184,EMP1063,Shirley Morris,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,80.3,True,2025-04-23,234,2025-03-13
+TR0185,EMP1064,Anthony Morris,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-08
+TR0186,EMP1065,Jeffrey Ross,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,140,2025-03-15
+TR0187,EMP1066,Barbara Edwards,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-06
+TR0188,EMP1067,Nicholas Phillips,Organizational Development,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,79.6,True,2025-04-11,167,2025-03-02
+TR0189,EMP1068,Kimberly Wilson,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-10
+TR0190,EMP1069,Raymond Cox,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,75.2,True,2025-03-23,205,2025-03-09
+TR0191,EMP1070,Dorothy Harris,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,67.5,False,2025-04-03,113,2025-03-06
+TR0192,EMP1071,Ronald Perry,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.8,4,5,,,,89,2025-03-09
+TR0193,EMP1072,Thomas Collins,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.2,1,5,,,,87,2025-03-13
+TR0194,EMP1073,James Howard,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-10
+TR0195,EMP1074,Ruby Roberts,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.8,4,5,,,,94,2025-03-06
+TR0196,EMP1075,Stephen Carter,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,68.4,False,2025-04-08,177,2025-03-01
+TR0197,EMP1076,Scott Jackson,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-02
+TR0198,EMP1077,Raymond Barnes,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.2,1,5,,,,61,2025-03-03
+TR0199,EMP1078,James Nelson,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.4,2,5,,,,76,2025-03-08
+TR0200,EMP1079,Pamela Foster,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,78.5,True,2025-04-08,176,2025-03-05
+TR0201,EMP1080,Betty Kelly,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,38,2025-03-01
+TR0202,EMP1081,Kathleen Sanders,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,74.4,True,2025-04-12,275,2025-03-09
+TR0203,EMP1082,Paul Morales,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-15
+TR0204,EMP1083,Sarah Garcia,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,40,2025-03-03
+TR0205,EMP1084,Karen Morgan,People Operations,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,69,2025-03-03
+TR0206,EMP1085,Daniel Foster,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-12
+TR0207,EMP1086,Anthony Russell,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.2,1,5,,,,69,2025-03-03
+TR0208,EMP1087,Susan Morgan,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,134,2025-03-11
+TR0209,EMP1088,Shirley James,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,68.1,False,2025-04-24,261,2025-03-12
+TR0210,EMP1089,Stephen Murphy,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,77.0,True,2025-03-17,136,2025-03-06
+TR0211,EMP1090,Stephanie King,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-06
+TR0212,EMP1091,Larry Bailey,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-08
+TR0213,EMP1092,Kevin Allen,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,67.5,False,2025-03-22,291,2025-03-03
+TR0214,EMP1093,Richard Thompson,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,92.6,True,2025-04-26,224,2025-03-13
+TR0215,EMP1094,Betty Wilson,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,84.7,True,2025-03-24,129,2025-03-06
+TR0216,EMP1095,Melissa Davis,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,88.8,True,2025-04-03,101,2025-03-14
+TR0217,EMP1096,Benjamin Russell,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,97.0,True,2025-04-05,246,2025-03-11
+TR0218,EMP1097,Michelle Nelson,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,72.7,True,2025-04-19,151,2025-03-12
+TR0219,EMP1098,Angela Reyes,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,94.8,True,2025-04-22,139,2025-03-13
+TR0220,EMP1099,Jonathan Brown,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,80.2,True,2025-04-17,162,2025-03-10
+TR0221,EMP1100,Amanda Gutierrez,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-09
+TR0222,EMP1101,Justin Brown,HR Business Partners,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.4,2,5,,,,132,2025-03-03
+TR0223,EMP1102,Rebecca Clark,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,36,2025-03-14
+TR0224,EMP1103,Nicholas Perez,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,100,2025-03-14
+TR0225,EMP1104,Melissa Wright,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-12
+TR0226,EMP1105,Robert Phillips,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-14
+TR0227,EMP1106,Jennifer Fisher,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,74.0,True,2025-03-22,221,2025-03-02
+TR0228,EMP1107,Emma Lopez,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,96.2,True,2025-03-22,146,2025-03-07
+TR0229,EMP1108,Brandon Perez,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-15
+TR0230,EMP1109,Pamela Reyes,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,66.8,False,2025-04-06,218,2025-03-01
+TR0231,EMP1110,Sarah Carter,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,77.4,True,2025-03-22,97,2025-03-07
+TR0232,EMP1111,Brenda Sullivan,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,91.1,True,2025-04-02,125,2025-03-02
+TR0233,EMP1112,Joyce James,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,88.0,True,2025-04-24,125,2025-03-15
+TR0234,EMP1113,Patrick Evans,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-08
+TR0235,EMP1114,Jonathan Hernandez,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,65.6,False,2025-03-16,145,2025-03-01
+TR0236,EMP1115,Nicholas Ortiz,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-09
+TR0237,EMP1116,Evelyn Scott,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Not Started,0.0,0,5,,,,0,2025-03-10
+TR0238,EMP1117,Brenda Scott,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.6,3,5,,,,60,2025-03-02
+TR0239,EMP1118,Kimberly Rogers,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,Completed,1.0,5,5,78.9,True,2025-03-26,293,2025-03-01
+TR0240,EMP1119,Jason Turner,Workforce Planning,CPLT-002,Claude Copilot Essentials,Tool Proficiency,Instructor-Led Virtual Classroom,In Progress,0.2,1,5,,,,137,2025-03-02
