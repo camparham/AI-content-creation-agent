@@ -1,0 +1,28 @@
+# Environment and secrets
+.env
+service-account.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+dist/
+build/
+
+# Agent output (generated at runtime)
+output/
+reports/
+
+# Local notes
+notes.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
