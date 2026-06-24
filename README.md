@@ -2,7 +2,7 @@
 
 I use Claude Code and VS Code to produce tailored YouTube content fast. Claude acts as a thought partner — it asks me clarifying questions before writing anything, and I control every output before it ships.
 
-Built by [Cam Parham](https://www.linkedin.com/in/camparham1/) | [AI & Data Thinking with Cam](https://www.youtube.com/@AIDataThinking)
+Built by [Cam Parham](https://www.linkedin.com/in/camparham1/) | [AI & Data Thinking with Cam](https://www.youtube.com/@datathinkingwithcam)
 
 ---
 
