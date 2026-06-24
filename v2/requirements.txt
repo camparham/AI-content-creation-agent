@@ -1,0 +1,8 @@
+# Camai — requires Python 3.10+
+anthropic==0.109.1
+tavily-python==0.7.26
+python-dotenv==1.2.2
+gspread==6.2.1
+google-auth==2.54.0
+google-api-python-client==2.197.0
+streamlit==1.45.1
