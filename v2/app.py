@@ -22,11 +22,23 @@ FORM_FIELDS = [
     ("goal", CLARIFICATION_QUESTIONS[4], "Help viewers build a realistic habit"),
 ]
 
+EXAMPLE_PLACEHOLDER = (
+    "Paste a script, caption, or post you like the tone/format of — the agent will "
+    "mirror its voice, pacing, and structure (not its subject matter) for this piece."
+)
+
 
 def init_state():
     defaults = {
         "step": 1,
         "topic": "",
+        "keyword": "",
+        "audience": "",
+        "platform": "",
+        "format": "",
+        "goal": "",
+        "example": "",
+        "model": agent.DEFAULT_MODEL,
         "clarifications": {},
         "search_plan": [],
         "report": "",
@@ -48,13 +60,28 @@ def clarifications_from_form(form_data: dict) -> dict:
         CLARIFICATION_QUESTIONS[2]: form_data.get("platform") or "(no preference)",
         CLARIFICATION_QUESTIONS[3]: form_data.get("format") or "(no preference)",
         CLARIFICATION_QUESTIONS[4]: form_data.get("goal") or "(no preference)",
+        CLARIFICATION_QUESTIONS[5]: form_data.get("example") or "(no preference)",
     }
+
+
+def apply_clarifications_to_fields(clarifications: dict) -> None:
+    """Unpack a clarifications dict back into the raw brief-form fields.
+
+    Called whenever the brief step is (re)entered so a "Back" click restores
+    exactly what the user typed instead of resetting the form to blank.
+    """
+    field_keys = ["keyword", "audience", "platform", "format", "goal", "example"]
+    for field_key, question in zip(field_keys, CLARIFICATION_QUESTIONS):
+        value = clarifications.get(question, "")
+        st.session_state[field_key] = "" if value == "(no preference)" else value
 
 
 def load_history_into_session(item: dict) -> None:
     path = Path(item["report_path"])
     st.session_state.topic = item["topic"]
-    st.session_state.clarifications = item.get("clarifications", {})
+    clarifications = item.get("clarifications", {})
+    st.session_state.clarifications = clarifications
+    apply_clarifications_to_fields(clarifications)
     st.session_state.search_plan = item.get("search_queries", [])
     st.session_state.report = agent.load_report(path)
     st.session_state.report_path = path
@@ -83,6 +110,39 @@ def render_history_sidebar():
         st.rerun()
 
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def cached_model_catalog(_cache_bust: int) -> dict:
+    return agent.list_available_models()
+
+
+def render_model_selector():
+    catalog = cached_model_catalog(st.session_state.get("model_refresh_nonce", 0))
+    models = catalog["models"]
+    model_ids = [m["id"] for m in models]
+    labels = {m["id"]: m["display_name"] for m in models}
+
+    if st.session_state.model not in model_ids:
+        model_ids.insert(0, st.session_state.model)
+        labels.setdefault(st.session_state.model, st.session_state.model)
+
+    st.sidebar.subheader("Model")
+    st.sidebar.selectbox(
+        "Billed to your Anthropic API key",
+        options=model_ids,
+        format_func=lambda mid: labels.get(mid, mid),
+        key="model",
+    )
+
+    if catalog["live"]:
+        st.sidebar.caption("Live list from your API key.")
+    else:
+        st.sidebar.caption("Fallback list — add ANTHROPIC_API_KEY to fetch your account's live models.")
+
+    if st.sidebar.button("↻ Refresh model list", use_container_width=True):
+        st.session_state["model_refresh_nonce"] = st.session_state.get("model_refresh_nonce", 0) + 1
+        st.rerun()
+
+
 def render_sidebar():
     st.sidebar.title("Camai")
     st.sidebar.caption("Research any topic and draft platform-ready content.")
@@ -101,6 +161,13 @@ def render_sidebar():
     if not status["anthropic"] or not status["tavily"]:
         st.sidebar.warning("Add ANTHROPIC_API_KEY and TAVILY_API_KEY to `.env` in the v2 folder.")
 
+    st.sidebar.divider()
+    render_model_selector()
+    st.sidebar.divider()
+    if st.session_state.step > 1:
+        if st.sidebar.button("← Edit brief", use_container_width=True):
+            st.session_state.step = 1
+            st.rerun()
     st.sidebar.divider()
     render_history_sidebar()
     st.sidebar.divider()
@@ -135,7 +202,21 @@ def render_brief_step():
 
         for idx, (field_key, label, placeholder) in enumerate(FORM_FIELDS):
             with cols[idx % 2]:
-                form_values[field_key] = st.text_input(label, placeholder=placeholder)
+                form_values[field_key] = st.text_input(
+                    label, value=st.session_state.get(field_key, ""), placeholder=placeholder
+                )
+
+        st.markdown("#### Example / template & tone")
+        st.caption(
+            "Optional. Paste an example of content whose tone and format you want this piece to follow."
+        )
+        form_values["example"] = st.text_area(
+            CLARIFICATION_QUESTIONS[5],
+            value=st.session_state.get("example", ""),
+            placeholder=EXAMPLE_PLACEHOLDER,
+            height=160,
+            label_visibility="collapsed",
+        )
 
         submitted = st.form_submit_button("Start research", type="primary", use_container_width=True)
 
@@ -145,6 +226,9 @@ def render_brief_step():
             return
 
         st.session_state.topic = topic.strip()
+        for field_key, _, _ in FORM_FIELDS:
+            st.session_state[field_key] = form_values[field_key]
+        st.session_state.example = form_values["example"]
         st.session_state.clarifications = clarifications_from_form(form_values)
         st.session_state.viewing_history = False
         st.session_state.report = ""
@@ -178,6 +262,7 @@ def render_research_step():
                         st.session_state.topic,
                         st.session_state.clarifications,
                         on_search=on_search,
+                        model=st.session_state.model,
                     )
                 st.session_state.search_plan = result["search_plan"]
                 st.session_state.report = result["report"]
@@ -209,7 +294,7 @@ def render_research_step():
 
     col1, col2 = st.columns(2)
     with col1:
-        if st.button("Back to brief"):
+        if st.button("Back"):
             st.session_state.step = 1
             st.rerun()
     with col2:
@@ -248,6 +333,7 @@ def render_drafts_step():
                         st.session_state.topic,
                         st.session_state.report,
                         st.session_state.clarifications,
+                        model=st.session_state.model,
                     )
                 st.session_state.drafts = result["drafts"]
                 st.session_state.script_path = result["script_path"]
@@ -300,7 +386,7 @@ def render_drafts_step():
 
     nav1, nav2, nav3 = st.columns(3)
     with nav1:
-        if st.button("Back to research"):
+        if st.button("Back"):
             st.session_state.step = 2
             st.rerun()
     with nav2:
@@ -329,6 +415,7 @@ def render_drafts_step():
                         st.session_state.topic,
                         st.session_state.report,
                         st.session_state.clarifications,
+                        model=st.session_state.model,
                     )
                 st.session_state.drafts = result["drafts"]
                 st.session_state.script_path = result["script_path"]
@@ -351,7 +438,7 @@ def render_publish_step():
 
     col1, col2 = st.columns(2)
     with col1:
-        if st.button("Back to drafts"):
+        if st.button("Back"):
             st.session_state.step = 3
             st.rerun()
     with col2:

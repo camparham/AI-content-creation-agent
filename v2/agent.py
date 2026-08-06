@@ -19,7 +19,16 @@ from googleapiclient.discovery import build
 
 load_dotenv()
 
-MODEL = "claude-sonnet-4-6"
+DEFAULT_MODEL = "claude-sonnet-4-6"
+MODEL = DEFAULT_MODEL  # kept for any external code importing the old name
+
+# Used only if a live models.list() call fails (no key yet, offline, older API version).
+# The UI always prefers the live list from the user's own API key so this rarely matters.
+FALLBACK_MODELS = [
+    {"id": "claude-sonnet-4-6", "display_name": "Claude Sonnet 4.6"},
+    {"id": "claude-opus-4-1", "display_name": "Claude Opus 4.1"},
+    {"id": "claude-haiku-4-5", "display_name": "Claude Haiku 4.5"},
+]
 MAX_SEARCHES = 10
 ROOT = Path(__file__).parent
 REPORTS_DIR = ROOT / "reports"
@@ -39,7 +48,10 @@ CLARIFICATION_QUESTIONS = [
     "What platform is this for? (YouTube, TikTok, Instagram, LinkedIn, etc.)",
     "What content format? (short-form video, long-form video, carousel, blog, newsletter)",
     "What is the main goal or pain point this piece should address?",
+    "Example/template to match the tone and style of (optional)",
 ]
+
+TONE_EXAMPLE_QUESTION = CLARIFICATION_QUESTIONS[5]
 
 TOOLS = [
     {
@@ -234,7 +246,8 @@ def build_system_prompt(
 ) -> str:
     past_sessions = past_sessions or []
     length = output_length_config()
-    clarification_text = "\n".join(f"- {k}: {v}" for k, v in clarifications.items())
+    context_only, _ = split_tone_example(clarifications)
+    clarification_text = "\n".join(f"- {k}: {v}" for k, v in context_only.items())
     plan_text = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(search_plan))
 
     memory_text = ""
@@ -323,6 +336,7 @@ def queue_clarifications(entry: dict) -> dict:
         CLARIFICATION_QUESTIONS[2]: entry.get("platform", "YouTube"),
         CLARIFICATION_QUESTIONS[3]: entry.get("format", "long-form video"),
         CLARIFICATION_QUESTIONS[4]: entry.get("goal", entry.get("pain_point", "Educate the audience")),
+        CLARIFICATION_QUESTIONS[5]: entry.get("example", "(no preference)"),
     }
     return mapping
 
@@ -357,11 +371,14 @@ def gather_clarifications(topic: str) -> dict:
     return clarifications
 
 
-def build_search_plan(client: anthropic.Anthropic, topic: str, clarifications: dict) -> list:
-    context = "\n".join(f"- {k}: {v}" for k, v in clarifications.items())
+def build_search_plan(
+    client: anthropic.Anthropic, topic: str, clarifications: dict, model: str = DEFAULT_MODEL
+) -> list:
+    context_only, _ = split_tone_example(clarifications)
+    context = "\n".join(f"- {k}: {v}" for k, v in context_only.items())
     try:
         response = client.messages.create(
-            model=MODEL,
+            model=model,
             max_tokens=600,
             messages=[
                 {
@@ -401,6 +418,30 @@ def get_clients() -> tuple[anthropic.Anthropic, TavilyClient]:
     return anthropic.Anthropic(api_key=anthropic_key), TavilyClient(api_key=tavily_key)
 
 
+def list_available_models() -> dict:
+    """Fetch models the caller's own API key can currently bill against.
+
+    Queries Anthropic's /v1/models endpoint live instead of hardcoding a list, so
+    new/retired models show up automatically without a code change. Falls back to
+    FALLBACK_MODELS if the key is missing, the call fails, or the installed SDK
+    doesn't support it yet — callers can check "live" to tell the user which case
+    they're in.
+    """
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    if not anthropic_key:
+        return {"models": FALLBACK_MODELS, "live": False}
+
+    try:
+        client = anthropic.Anthropic(api_key=anthropic_key)
+        page = client.models.list(limit=100)
+        models = [{"id": m.id, "display_name": m.display_name or m.id} for m in page.data]
+        if not models:
+            return {"models": FALLBACK_MODELS, "live": False}
+        return {"models": models, "live": True}
+    except Exception:
+        return {"models": FALLBACK_MODELS, "live": False}
+
+
 def env_status() -> dict:
     length = output_length_config()
     return {
@@ -423,6 +464,7 @@ def run_research_loop(
     search_plan: list,
     past_sessions: list | None = None,
     on_search: Callable[[str, int, int], None] | None = None,
+    model: str = DEFAULT_MODEL,
 ) -> str:
     past_sessions = past_sessions or []
     searches_used = 0
@@ -444,7 +486,7 @@ def run_research_loop(
         active_tools = TOOLS if searches_used < MAX_SEARCHES else []
 
         response = client.messages.create(
-            model=MODEL,
+            model=model,
             max_tokens=output_length_config()["max_tokens"],
             system=system,
             tools=active_tools,
@@ -534,21 +576,49 @@ def save_report(
     return path
 
 
+def split_tone_example(clarifications: dict) -> tuple[dict, str]:
+    """Pull the tone/template example out of the clarifications dict.
+
+    It needs separate handling because it's free-form prose (not a short
+    answer), so dumping it into the one-line-per-question context block
+    would truncate or mangle it.
+    """
+    context = dict(clarifications)
+    example = context.pop(TONE_EXAMPLE_QUESTION, "")
+    if not example or example.strip() in ("", "(no preference)"):
+        return context, ""
+    return context, example.strip()
+
+
 def build_content_system_prompt(clarifications: dict) -> str:
     config = creator_config()
     creator_line = ""
     if config["creator_name"]:
         creator_line = f"The creator's name is {config['creator_name']}. "
 
-    context = "\n".join(f"- {k}: {v}" for k, v in clarifications.items())
+    context, tone_example = split_tone_example(clarifications)
+    context_text = "\n".join(f"- {k}: {v}" for k, v in context.items())
+
+    tone_block = ""
+    if tone_example:
+        tone_block = f"""
+TONE & TEMPLATE EXAMPLE:
+The creator supplied the example below. Study its tone, voice, pacing, and structure,
+and closely mirror them in your writing. Do not copy its subject matter or specific
+phrases — only match the style and format.
+\"\"\"
+{tone_example}
+\"\"\"
+"""
+
     return f"""You are a content strategist and scriptwriter for digital creators across any niche.
 
 {creator_line}Adapt tone, structure, and examples to the creator context below. Do not assume any specific
 subject matter, dataset, or industry unless the context calls for it.
 
 CREATOR CONTEXT:
-{context}
-
+{context_text}
+{tone_block}
 WRITING RULES:
 - Match the requested platform and format exactly
 - Lead with audience value, not jargon
@@ -573,7 +643,8 @@ def build_content_user_prompt(topic: str, report: str, clarifications: dict) -> 
     if config["linkedin_url"]:
         linkedin_note = f"\nInclude this link in the YouTube description when relevant: {config['linkedin_url']}\n"
 
-    context = "\n".join(f"- {k}: {v}" for k, v in clarifications.items())
+    context_only, _ = split_tone_example(clarifications)
+    context = "\n".join(f"- {k}: {v}" for k, v in context_only.items())
     length = output_length_config()
     return f"""Generate a complete content package for: '{topic}'
 
@@ -626,9 +697,10 @@ def generate_content_drafts(
     topic: str,
     report: str,
     clarifications: dict,
+    model: str = DEFAULT_MODEL,
 ) -> dict:
     response = client.messages.create(
-        model=MODEL,
+        model=model,
         max_tokens=output_length_config()["draft_max_tokens"],
         system=build_content_system_prompt(clarifications),
         messages=[
@@ -893,12 +965,13 @@ def run_full_research(
     topic: str,
     clarifications: dict,
     on_search: Callable[[str, int, int], None] | None = None,
+    model: str = DEFAULT_MODEL,
 ) -> dict:
     client, tavily = get_clients()
     past_sessions = load_all_report_sessions()
-    search_plan = build_search_plan(client, topic, clarifications)
+    search_plan = build_search_plan(client, topic, clarifications, model)
     report = run_research_loop(
-        client, tavily, topic, clarifications, search_plan, past_sessions, on_search
+        client, tavily, topic, clarifications, search_plan, past_sessions, on_search, model
     )
     report_path = save_report(topic, report, clarifications, search_plan)
     return {
@@ -908,9 +981,9 @@ def run_full_research(
     }
 
 
-def run_full_drafts(topic: str, report: str, clarifications: dict) -> dict:
+def run_full_drafts(topic: str, report: str, clarifications: dict, model: str = DEFAULT_MODEL) -> dict:
     client, _ = get_clients()
-    drafts = generate_content_drafts(client, topic, report, clarifications)
+    drafts = generate_content_drafts(client, topic, report, clarifications, model)
     script_path = save_script_for_editing(topic, drafts)
     return {"drafts": drafts, "script_path": script_path}
 
