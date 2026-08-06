@@ -1,0 +1,2 @@
+cd /Users/cam/Documents/PR_1/v2 && streamlit run app.py
+cd my-first-agent-real
